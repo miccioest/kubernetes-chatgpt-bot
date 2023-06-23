@@ -101,7 +101,7 @@ def chat_gpt_enricher(alert: PrometheusKubernetesAlert, params: ChatGPTTokenPara
         [
             CallbackBlock(
                 {
-                    f'Ask ChatGPT: {alert_name}': CallbackChoice(
+                    f'Ask ChatGPT(Hack Day): {alert_name}': CallbackChoice(
                         action=show_chat_gpt_search,
                         action_params=ChatGPTParams(
                             search_term=f"{alert_name}",
