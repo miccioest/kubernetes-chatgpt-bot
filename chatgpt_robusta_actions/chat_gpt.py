@@ -64,7 +64,7 @@ def show_chat_gpt_search(event: ExecutionBaseEvent, params: ChatGPTParams):
 
             answers.append(f"\n\n ---")
             answers.append(f"\n\n | Time taken: {time_taken:.2f} seconds | Total tokens used: {total_tokens} |")
-            answers.append(f"\nHack Day repo")
+            answers.append(f"\n | Bytewax - Hack Day |")
 
     except Exception as e:
         answers.append(f"Error calling ChatCompletion.create: {e}")
